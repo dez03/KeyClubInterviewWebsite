@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import logo from './githubprofileCROPPED.svg';
+import menu from './hamburgermenu.svg';
 import './App.css';
 
 function App() {
@@ -6,16 +7,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1 className="Header-title">
+          Display Of My Projects.
+        </h1>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <img src={menu} className="menu" alt="Menu" />
         </a>
       </header>
     </div>
